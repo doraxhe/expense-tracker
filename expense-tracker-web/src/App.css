@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.descriptionBox {
+  width: 150;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.edit {
+  text-align: center;
+}
+
+.name {
+  padding: 20px;
+}
+
+.category {
+  padding: 20px;
+}
+
+.description {
+  padding: 20px;
+}
+
+.Dining {
+  background-color: rgba(236, 203, 162, 0.4);
+  border-color: rgb(236, 203, 162);
+  border-style: solid;
+  border-width: 1px;
+  margin: 10px 200px;
+}
+
+.Travel {
+  background-color: rgba(109, 80, 240, 0.3);
+  border-color: rgb(109, 80, 240);
+  border-style: solid;
+  border-width: 1px;
+  margin: 10px 200px;
+}
+
+.Grocery {
+  background-color: rgba(32, 129, 20, 0.2);
+  border-color: rgb(32, 129, 20);
+  border-style: solid;
+  border-width: 1px; 
+  margin: 10px 200px;
+}
+
+.Shopping {
+  background-color: rgba(184, 32, 77, 0.3);
+  border-color: rgb(184, 32, 77);
+  border-style: solid;
+  border-width: 1px; 
+  margin: 10px 200px;
+}
+
+.Education {
+  background-color: rgba(168, 94, 168, 0.2);
+  border-color: rgb(223, 177, 223);
+  border-style: solid;
+  border-width: 1px;  
+  margin: 10px 200px;
+}
+
+.Entertainment {
+  background-color: rgba(100, 199, 238, 0.3);
+  border-color: rgb(100, 199, 238);
+  border-style: solid;
+  border-width: 1px;  
+  margin: 10px 200px;
+}
+
+.Other {
+  background-color: rgba(241, 241, 143, 0.4);
+  border-color: rgb(235, 235, 122);
+  border-style: solid;
+  border-width: 1px;
+  margin: 10px 200px;
+}
+
